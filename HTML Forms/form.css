@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.ftr{
+    display: flex;
+    background-color: darkgrey;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.hdr{
+    background-color: lightseagreen;
+}
+
+.hdr #hdr2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#lg {
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    margin-left: 20px;
+}
+
+#nav {
+    display: flex;
+    margin-left: 80px;
+}
+
+#nav li {
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 22px;
+    align-items: flex-end;
+    font-family: Segoe UI;
+}
+
+
+.mcq {
+    display: flex;
+    margin-left: 20px;
+}
+
+body .mnhd {
+    display: flex;
+    justify-content: center;
+    
+}
+
+body .mnhd h1 {
+    font-size: 30px;
+    font-family: Helvetica;
+    
+}
+
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .btn10 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    background-color: lightcoral
+    color: black;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#ans1, #ans2, #ans3, #ans4, #ans5, #ans6, #ans7, #ans8, #ans9, #ans10 {
+    margin-left: 20px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.mcq1 , .mcq2, .mcq3, .mcq4, .mcq5, .mcq6 , .mcq7, .mcq8, .mcq9, .mcq10 {
+    font-family: "Helvetica";
+    padding: 10px;
+}
+
+
+
+
+    

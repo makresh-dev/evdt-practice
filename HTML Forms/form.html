@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MCQ FORM</title>
+    <link rel="stylesheet" href="/HTML Forms/form.css">
+</head>
+
+<body>
+    <div class="hdr">
+        <div id="hdr2">
+            <div id="lg">
+                <h1>LOGO</h1>
+            </div>
+                <div id="nav">
+                    <ul>
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                        <li>Link 4</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <div class="mnhd">
+        <h1>JavaScript MCQ</h1>
+    </div>
+    <div class="mcq">
+        
+        <form id="form">
+            <div class="mcq1">
+            <p>1.
+                Javascript is an _______ language?</p>
+            <input type="radio" id="a1" name="Javascript is an _______ language?" value="Object Oriented">
+            <label for="a">Object Oriented</label><br>
+            <input type="radio" id="b2" name="Javascript is an _______ language?" value="Object Based">
+            <label for="b">Object Based</label><br>
+            <input type="radio" id="c3" name="Javascript is an _______ language?" value="Procedural">
+            <label for="c">Procedural</label><br>
+            <input type="radio" id="d4" name="Javascript is an _______ language?" value="None Of The Above">
+            <label for="d">None Of The Above</label><br>
+            <button type="button" class="btn1" onclick="checkAnswer1()">Check Answer</button><br>
+            <p id="ans1"></p>
+            <script>
+                function checkAnswer1(){
+                    if(document.getElementById('a1').checked === true) {
+                        document.getElementById("ans1").textContent = "Correct Answer";
+                    } else {
+                        document.getElementById("ans1").textContent = "Wrong Answer";
+                    }
+                }
+            </script>
+        </div>
+        <div class="mcq2">
+            <p>2.
+                Which of the following keywords is used to define a variable in Javascript?</p>
+            <input type="radio" id="a2" name="Which of the following keywords is used to define a variable in Javascript?" value="var">
+            <label for="a">var</label><br>
+            <input type="radio" id="b2" name="Which of the following keywords is used to define a variable in Javascript?" value="let">
+            <label for="b">let</label><br>
+            <input type="radio" id="c2" name="Which of the following keywords is used to define a variable in Javascript?" value="Both A and B">
+            <label for="c">Both A and B</label><br>
+            <input type="radio" id="d2" name="Which of the following keywords is used to define a variable in Javascript?" value="None Of the Above">
+            <label for="d">None Of the Above</label><br>
+            <button type="button" class="btn2" onclick="checkAnswer2()">Check Answer</button><br>
+            <p id="ans2"></p>
+            <script>
+                function checkAnswer2(){
+                    if(document.getElementById('c2').checked === true) {
+                        document.getElementById("ans2").textContent = "Correct Answer";
+                    } else {
+                        document.getElementById("an2").textContent = "Wrong Answer";
+                    }
+                }
+            </script>
+        </div>
+        <div class="mcq3">
+            <p id="mcq3">3.
+                Which of the following methods is used to access HTML elements using Javascript?
+            </p>
+            <input type="radio" id="a3" name="Which of the following methods is used to access HTML elements using Javascript?" value="getElementById()">
+            <label for="a">getElementById()</label><br>
+            <input type="radio" id="b3" name="Which of the following methods is used to access HTML elements using Javascript?" value="getElementByClassName()">
+            <label for="b">getElementByClassName()</label><br>
+            <input type="radio" id="c3" name="Which of the following methods is used to access HTML elements using Javascript?" value="Both A and B">
+            <label for="c">Both A and B</label><br>
+            <input type="radio" id="d3" name="Which of the following methods is used to access HTML elements using Javascript?" value="None of the Above">
+            <label for="d">None of the Above</label><br>
+            <button type="button" class="btn3" onclick="checkAnswer3()">Check Answer</button><br>
+            <p id="ans3"></p>
+            <script>
+                function checkAnswer3(){
+                    if(document.getElementById('c3').checked === true) {
+                        document.getElementById("ans3").textContent = "Correct Answer";
+                    } else {
+                        document.getElementById("ans3").textContent = "Wrong Answer";
+                    }
+                }
+            </script>
+        </div>
+        <div class="mcq4">
+            <p id="">4.
+                Upon encountering empty statements, what does the Javascript Interpreter do?
+            </p>
+            <input type="radio" id="a4" name="Upon encountering empty statements, what does the Javascript Interpreter do?" value="Throws an error">
+            <label for="a">Throws an error</label><br>
+            <input type="radio" id="b4" name="Upon encountering empty statements, what does the Javascript Interpreter do?" value="Ignores the Statement">
+            <label for="b">Ignores the Statement</label><br>
+            <input type="radio" id="c4" name="Upon encountering empty statements, what does the Javascript Interpreter do?" value="Gives a warning">
+            <label for="c">Gives a warning</label><br>
+            <input type="radio" id="d4" name="Upon encountering empty statements, what does the Javascript Interpreter do?" value="None of THe Above">
+            <label for="d">None of the Above</label><br>
+            <button type="button" class="btn4" onclick="checkAnswer4()">Check Answer</button><br>
+            <p id="ans4"></p>
+            <script>
+                function checkAnswer4(){
+                    if(document.getElementById('b4').checked === true) {
+                        document.getElementById("ans4").textContent = "Correct Answer";
+                    } else {
+                        document.getElementById("ans4").textContent = "Wrong Answer";
+                    }
+                }
+            </script>
+        </div>
+        <div class="mcq5">
+            <p id="mcq5">5.
+                Which of the following methods can be used to display data in some form using Javascript?</p>
+            <input type="radio" id="a5" name="Which of the following methods can be used to display data in some form using Javascript?" value="document.write()">
+            <label for="a">document.write()</label><br>
+            <input type="radio" id="b5" name="Which of the following methods can be used to display data in some form using Javascript?" value="console.log()">
+            <label for="b">console.log()</label><br>
+            <input type="radio" id="c5" name="Which of the following methods can be used to display data in some form using Javascript?" value="windows.alert()">
+            <label for="c">windows.alert()</label><br>
+            <input type="radio" id="d5" name="Which of the following methods can be used to display data in some form using Javascript?" value="All of the Above">
+            <label for="d">All of the Above</label><br>
+            <button type="button" class="btn5" onclick="checkAnswer5()">Check Answer</button><br>
+            <p id="ans5"></p>
+            <script>
+                function checkAnswer5(){
+                    if(document.getElementById('d5').checked === true) {
+                        document.getElementById("ans5").textContent = "Correct Answer";
+                    } else {
+                        document.getElementById("ans5").textContent = "Wrong Answer";
+                    }
+                }
+            </script>
+        </div>
+        <div class="mcq6">
+            <p id="mcq6">6.
+                How can a datatype be declared to be a constant type?</p>
+            <input type="radio" id="a6" name=" How can a datatype be declared to be a constant type?" value="const">
+            <label for="a">const</label><br>
+            <input type="radio" id="b6" name=" How can a datatype be declared to be a constant type?" value="var">
+            <label for="b">var</label><br>
+            <input type="radio" id="c6" name=" How can a datatype be declared to be a constant type?" value="let">
+            <label for="c">let</label><br>
+            <input type="radio" id="d6" name=" How can a datatype be declared to be a constant type?" value="constant">
+            <label for="d">constant</label><br>
+            <button type="button" class="btn6" onclick="checkAnswer6()">Check Answer</button><br>
+            <p id="ans6"></p>
+            <script>
+                function checkAnswer6(){
+                    if(document.getElementById('a6').checked === true) {
+                        document.getElementById("ans6").textContent = "Correct Answer";
+                    } else {
+                        document.getElementById("ans6").textContent = "Wrong Answer";
+                    }
+                }
+            </script>
+        </div>
+        <div class="mcq7">
+            <p id="mcq7">7.
+                What will be the output of the following code snippet?<br>
+                <i>&ltscript&gt <br> &lttype="text/javascript"&gt<br>
+                    a = 5 + "9";<br>
+                    document.write(a);<br>
+                    &lt/script&gt</i>
+            </p>
+            <input type="radio" id="a7" name="What will be the output of the following code snippet?" value="Compilation Error">
+            <label for="a">Compilation Error</label><br>
+            <input type="radio" id="b7" name="What will be the output of the following code snippet?" value="14">
+            <label for="b">14</label><br>
+            <input type="radio" id="c7" name="What will be the output of the following code snippet?" value="Runtime Error">
+            <label for="c">Runtime Error</label><br>
+            <input type="radio" id="d7" name="What will be the output of the following code snippet?" value="59">
+            <label for="d">59</label><br>
+            <button type="button" class="btn7" onclick="checkAnswer7()">Check Answer</button><br>
+            <p id="ans7"></p>
+            <script>
+                function checkAnswer7(){
+                    if(document.getElementById('d7').checked === true) {
+                        document.getElementById("ans7").textContent = "Correct Answer";
+                    } else {
+                        document.getElementById("ans7").textContent = "Wrong Answer";
+                    }
+                }
+            </script>
+        </div>
+        <div class="mcq8">
+            <p id="mcq8">8.
+                What will be the output of the following code snippet?
+                <i><br>
+                    &ltscript type="text/javascript" language="javascript"&gt<br>
+                    var a = "Scaler";<br>
+                    var result = a.substring(2, 4);<br>
+                    document.write(result);<br>
+                    &lt/script&gt</i>
+            </p>
+            <input type="radio" id="a8" name=" What will be the output of the following code snippet?" value="al">
+            <label for="a">al</label><br>
+            <input type="radio" id="b8" name=" What will be the output of the following code snippet?" value="ale">
+            <label for="b">ale</label><br>
+            <input type="radio" id="c8" name=" What will be the output of the following code snippet?" value="cal">
+            <label for="c">cal</label><br>
+            <input type="radio" id="d8" name=" What will be the output of the following code snippet?" value="caler">
+            <label for="d">caler</label><br>
+            <button type="button" class="btn8" onclick="checkAnswer8()">Check Answer</button><br>
+            <p id="ans8"></p>
+            <script>
+                function checkAnswer8(){
+                    if(document.getElementById('a8').checked === true) {
+                        document.getElementById("ans8").textContent = "Correct Answer";
+                    } else {
+                        document.getElementById("ans8").textContent = "Wrong Answer";
+                    }
+                }
+            </script>
+        </div>
+        <div class="mcq9">
+            <p id="mcq9">9.
+                When the switch statement matches the expression with the given labels, how is the comparison done?</p>
+            <input type="radio" id="a9" name=" When the switch statement matches the expression with the given labels, how is the comparison done?" value="Both the datatype ant the Result of the Expression are compared">
+            <label for="a">Both the datatype ant the Result of the Expression are compared</label><br>
+            <input type="radio" id="b9" name=" When the switch statement matches the expression with the given labels, how is the comparison done?" value="Only the datatype of the Expression is compared">
+            <label for="b">Only the datatype of the Expression is compared</label><br>
+            <input type="radio" id="c9" name=" When the switch statement matches the expression with the given labels, how is the comparison done?" value="Only the Value of the Expression is compared">
+            <label for="c">Only the Value of the Expression is compared</label><br>
+            <input type="radio" id="d9" name=" When the switch statement matches the expression with the given labels, how is the comparison done?" value="None of the Above">
+            <label for="d">None of the Above</label><br>
+            <button type="button" class="btn9" onclick="checkAnswer9()">Check Answer</button><br>
+            <p id="ans9"></p>
+            <script>
+                function checkAnswer9(){
+                    if(document.getElementById('a9').checked === true) {
+                        document.getElementById("ans9").textContent = "Correct Answer";
+                    } else {
+                        document.getElementById("ans9").textContent = "Wrong Answer";
+                    }
+                }
+            </script>
+        </div>
+        <div class="mcq10">
+            <p id="mcq10">10.
+                What is the use of the &ltnoscript&gt tag in Javascript?
+            </p>
+            <input type="radio" id="a10" name="What is the use of the &ltnoscript&gt tag in Javascript?" value="The contents are displayed by non-JS-based browser">
+            <label for="a">The contents are displayed by non-JS-based browser</label><br>
+            <input type="radio" id="b10" name="What is the use of the &ltnoscript&gt tag in Javascript?" value="Clears all the cookie and cache">
+            <label for="b">Clears all the cookie and cache</label><br>
+            <input type="radio" id="c10" name="What is the use of the &ltnoscript&gt tag in Javascript?" value="Both A and B">
+            <label for="c">Both A and B</label><br>
+            <input type="radio" id="d10" name="What is the use of the &ltnoscript&gt tag in Javascript?" value="None of the Above">
+            <label for="d">None of the Above</label><br>
+            <button type="button" class="btn10" onclick="checkAnswer10()">Check Answer</button><br>
+            <p id="ans10"></p>
+            <script>
+                function checkAnswer10(){
+                    if(document.getElementById('a10').checked === true) {
+                        document.getElementById("ans10").textContent = "Correct Answer";
+                    } else {
+                        document.getElementById("ans10").textContent = "Wrong Answer";
+                    }
+                }
+            </script>
+        </div>
+        </form>
+        </div>
+
+        <div class="ftr">
+            <div id="logo">
+               <p>Designed By</p> 
+            </div>
+        </div>
+</body>
+
+</html>
