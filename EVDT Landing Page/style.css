@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hdr {
+    display: flex;
+    background-color: #FFF6A3; 
+    justify-content: space-between;
+}
+
+.ftr {
+    display: flex;
+    background-color: #FFF6A3; 
+    margin-top: 50px;
+}
+
+.ftr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    margin: 10px;
+    padding: 10px;
+}
+
+.hdr-logo {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.hdr-logo h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Inter';
+
+}
+
+.nav ul li {
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: 'Inter';
+
+}
+
+.btn1 {
+    background-color: #FF0000;
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 253, 253);
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    cursor: pointer;
+    min-width: 140px;
+}  
+
+.btn2, .btn3 {
+    background-color: #FF0000;
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 253, 253);
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    cursor: pointer;
+    min-width: 120px;
+}  
+
+.bd1, .bd2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bd1  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bd1 .bd1a p {
+    font-family: 'Inter';
+    font-size: 20px;
+    text-align: center;
+}
+
+.bd1a h1 {
+    font-size: 120px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#bd1btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+
+.bdlt {
+    margin-left: 200px;
+}
+
+#bdlthd1, #bdlthd2, #bdlthd3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 80px;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+#bdlthd3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 80px;
+    font-family: 'Inter';
+    margin-top: 20px;
+}
+
+.bdrt {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 150px;
+    margin-right: 120px;
+}
+
+.bd1a {
+    padding-bottom: 180px;
+}
+
+
+#logo p {
+    font-size: 15px;
+    font-family: 'Inter';
+    padding: 20px;
+}
+
+
+
