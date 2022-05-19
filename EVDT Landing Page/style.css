@@ -115,15 +115,15 @@ body {
 
 
 .bdlt {
-    margin-left: 200px;
+    margin-left: 30px;
+    padding-left: 100px;
 }
 
-#bdlthd1, #bdlthd2, #bdlthd3 {
+#bdlthd1, #bdlthd2 {
     display: flex;
     justify-content: flex-start;
-    margin-right: 80px;
+    margin-right: 100px;
     font-family: 'Inter';
-    text-align: justify;
 }
 
 #bdlthd3 {
@@ -137,8 +137,8 @@ body {
 .bdrt {
     display: flex;
     justify-content: flex-end;
-    margin-left: 150px;
-    margin-right: 120px;
+    margin-left: 40px;
+    margin-right: 100px;
 }
 
 .bd1a {
